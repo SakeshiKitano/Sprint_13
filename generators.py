@@ -1,6 +1,10 @@
+import faker
 import requests
 import random
 import string
+from faker import Faker
+
+fake = Faker()
 
 def register_new_courier_and_return_login_password():
 
@@ -53,3 +57,6 @@ def generate_courier_creds():
 
 
     return login_pass
+
+def generate_first_name():
+    return fake.first_name()

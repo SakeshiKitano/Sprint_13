@@ -17,3 +17,8 @@ class DataForOrder:
     "comment": "Test order",
     "color": []
 }
+
+class Messages:
+    DUPLICATE_LOGIN_MESS ="Этот логин уже используется. Попробуйте другой."
+    NOT_ENOUGH_DATA = "Недостаточно данных для создания учетной записи"
+    NOT_ENOUGH_DATA_FOR_LOGIN = "Недостаточно данных для входа"
